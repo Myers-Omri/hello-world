@@ -3,9 +3,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
+   <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+
     <groupId>com.google.guava</groupId>
-    <artifactId>guava-parent</artifactId>
-    <version>26.0-android</version>
+    <artifactId>guava</artifactId>
+    <version>24.1.1-jre</version>
+
   </parent>
   <artifactId>listenablefuture</artifactId>
   <version>9999.0-empty-to-avoid-conflict-with-guava</version>
